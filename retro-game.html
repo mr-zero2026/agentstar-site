@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레트로 게임 변환 - AgentStar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><span class="logo-icon">⭐</span> AgentStar</a>
+            <button class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" data-i18n="nav_home">홈</a></li>
+                <li><a href="ottogi.html" data-i18n="nav_ottogi">오뚜기봇</a></li>
+                <li><a href="grit.html" data-i18n="nav_grit">그릿봇</a></li>
+                <li><a href="wallet-scan.html" data-i18n="nav_wallet">지갑스캔봇</a></li>
+                <li><a href="lineage.html" data-i18n="nav_lineage">리니지봇</a></li>
+                <li><a href="jarvis.html" data-i18n="nav_jarvis">자비스</a></li>
+                <li><a href="retro-game.html" class="active" data-i18n="nav_retro">레트로 게임</a></li>
+                <li><a href="donate.html" data-i18n="nav_donate">AI 후원</a></li>
+                <li><a href="support.html" data-i18n="nav_support">고객센터</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>🕹️ <span class="highlight" data-i18n="page_retro_title">레트로 게임 변환</span></h1>
+            <p data-i18n="page_retro_subtitle">당신이 기억하는 추억의 게임을 온라인으로, 모바일로, PC로 되살려드립니다</p>
+        </div>
+    </section>
+
+    <!-- 변환 프로세스 다이어그램 -->
+    <section class="content-section">
+        <div class="container">
+            <h2 style="text-align:center; font-size:32px; font-weight:900; margin-bottom:50px; color:#fff;" data-i18n="retro_process_title">변환 프로세스</h2>
+            
+            <div class="transform-diagram">
+                <!-- 소스 미디어 -->
+                <div class="transform-sources">
+                    <div class="transform-item source">
+                        <div class="transform-icon">💿</div>
+                        <span>CD / DVD</span>
+                    </div>
+                    <div class="transform-item source">
+                        <div class="transform-icon">💾</div>
+                        <span data-i18n="retro_old_hdd">오래된 HDD</span>
+                    </div>
+                    <div class="transform-item source">
+                        <div class="transform-icon">📼</div>
+                        <span data-i18n="retro_floppy">플로피 / USB</span>
+                    </div>
+                    <div class="transform-item source">
+                        <div class="transform-icon">📦</div>
+                        <span data-i18n="retro_cartridge">카트리지 / ROM</span>
+                    </div>
+                </div>
+
+                <!-- 화살표 -->
+                <div class="transform-arrow">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-center">
+                        <span>⭐</span>
+                        <span style="font-size:14px; display:block; margin-top:4px;">AgentStar AI</span>
+                    </div>
+                    <div class="arrow-line"></div>
+                </div>
+
+                <!-- 타겟 플랫폼 -->
+                <div class="transform-targets">
+                    <div class="transform-item target">
+                        <div class="transform-icon">📱</div>
+                        <span data-i18n="retro_mobile">모바일 (iOS/Android)</span>
+                    </div>
+                    <div class="transform-item target">
+                        <div class="transform-icon">💻</div>
+                        <span data-i18n="retro_laptop">노트북 / PC</span>
+                    </div>
+                    <div class="transform-item target">
+                        <div class="transform-icon">🌐</div>
+                        <span data-i18n="retro_browser">웹 브라우저 (Chrome, Safari, Edge)</span>
+                    </div>
+                    <div class="transform-item target">
+                        <div class="transform-icon">🖥️</div>
+                        <span data-i18n="retro_online">온라인 멀티플레이</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 서비스 상세 -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-block">
+                <div class="content-text">
+                    <h2 data-i18n="retro_section1_title">추억의 게임, 다시 플레이하세요</h2>
+                    <p data-i18n="retro_section1_p1">서랍 속 CD, 오래된 하드디스크, 먼지 쌓인 DVD에 잠들어 있는 추억의 게임들. AgentStar AI가 최신 플랫폼에서 다시 즐길 수 있도록 변환해드립니다.</p>
+                    <p data-i18n="retro_section1_p2">원본 게임의 감성은 그대로 유지하면서, 현대 기기에 최적화된 환경으로 재탄생시킵니다.</p>
+                    <ul class="feature-list">
+                        <li data-i18n="retro_feat1">CD/DVD/HDD에서 게임 데이터 추출 및 복원</li>
+                        <li data-i18n="retro_feat2">모바일 터치 컨트롤 최적화</li>
+                        <li data-i18n="retro_feat3">웹 브라우저에서 바로 플레이 가능</li>
+                        <li data-i18n="retro_feat4">원본 그래픽 업스케일링 지원</li>
+                    </ul>
+                </div>
+                <div class="placeholder-img">🕹️</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="content-block reverse">
+                <div class="content-text">
+                    <h2 data-i18n="retro_section2_title">지원 가능한 게임 유형</h2>
+                    <p data-i18n="retro_section2_desc">PC 패키지 게임, 콘솔 게임, 아케이드 게임 등 다양한 레트로 게임을 지원합니다.</p>
+                    <ul class="feature-list">
+                        <li data-i18n="retro_type1">🎮 DOS / Windows 클래식 PC 게임</li>
+                        <li data-i18n="retro_type2">🕹️ 아케이드 / 오락실 게임</li>
+                        <li data-i18n="retro_type3">📺 콘솔 게임 (NES, SNES, PS1 등)</li>
+                        <li data-i18n="retro_type4">💻 온라인 전환 (멀티플레이 추가)</li>
+                        <li data-i18n="retro_type5">📱 모바일 앱 변환 (터치 최적화)</li>
+                    </ul>
+                </div>
+                <div class="placeholder-img">🎮</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="content-block">
+                <div class="content-text">
+                    <h2 data-i18n="retro_section3_title">온라인 멀티플레이 전환</h2>
+                    <p data-i18n="retro_section3_desc">혼자 하던 게임을 친구와 함께! 싱글플레이 게임에 온라인 멀티플레이 기능을 추가하여 전 세계 어디서든 함께 즐길 수 있습니다. 웹 브라우저만 있으면 설치 없이 바로 플레이!</p>
+                    <ul class="feature-list">
+                        <li data-i18n="retro_multi1">싱글플레이 → 온라인 멀티플레이 전환</li>
+                        <li data-i18n="retro_multi2">설치 없이 브라우저에서 바로 플레이</li>
+                        <li data-i18n="retro_multi3">친구 초대 링크 생성</li>
+                        <li data-i18n="retro_multi4">랭킹 및 리더보드 시스템</li>
+                    </ul>
+                </div>
+                <div class="placeholder-img">🌐</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2 data-i18n="retro_cta_title">추억의 게임, 다시 시작하세요</h2>
+            <p data-i18n="retro_cta_desc">CD, DVD, 오래된 하드만 보내주세요. AI가 현대 플랫폼으로 되살려드립니다.</p>
+            <a href="support.html" class="btn btn-primary btn-large" data-i18n="retro_cta_btn">상담 신청하기 📩</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 AgentStar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/i18n.js"></script>
+
+    <style>
+    .transform-diagram {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin: 40px 0;
+    }
+    .transform-sources, .transform-targets {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .transform-item {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding: 18px 24px;
+        border-radius: 16px;
+        font-size: 15px;
+        font-weight: 500;
+        min-width: 260px;
+    }
+    .transform-item.source {
+        background: rgba(253, 121, 168, 0.1);
+        border: 1px solid rgba(253, 121, 168, 0.3);
+        color: #FD79A8;
+    }
+    .transform-item.target {
+        background: rgba(0, 210, 211, 0.1);
+        border: 1px solid rgba(0, 210, 211, 0.3);
+        color: #00D2D3;
+    }
+    .transform-icon {
+        font-size: 32px;
+        flex-shrink: 0;
+    }
+    .transform-arrow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0 20px;
+    }
+    .arrow-line {
+        width: 3px;
+        height: 60px;
+        background: var(--gradient);
+        border-radius: 2px;
+    }
+    .arrow-center {
+        width: 80px;
+        height: 80px;
+        background: var(--gradient);
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        color: white;
+        box-shadow: 0 0 30px rgba(108, 92, 231, 0.5);
+    }
+    @media (max-width: 768px) {
+        .transform-diagram {
+            flex-direction: column;
+        }
+        .transform-arrow {
+            flex-direction: row;
+            padding: 10px 0;
+        }
+        .arrow-line {
+            width: 60px;
+            height: 3px;
+        }
+        .transform-item { min-width: 100%; }
+    }
+    </style>
+</body>
+</html>
