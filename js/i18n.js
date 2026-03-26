@@ -18,20 +18,20 @@ const T = {
         es: 'Inicio', el: 'Αρχική', de: 'Start', fr: 'Accueil', ru: 'Главная'
     },
     nav_ottogi: {
-        ko: '오뚜기봇', en: 'OttogiBot', zh: '不倒翁机器人', ja: 'オットギボット',
-        es: 'OttogiBot', el: 'OttogiBot', de: 'OttogiBot', fr: 'OttogiBot', ru: 'OttogiBot'
+        ko: '오뚜기', en: 'Ottogi', zh: '不倒翁', ja: 'オットギ',
+        es: 'Ottogi', el: 'Ottogi', de: 'Ottogi', fr: 'Ottogi', ru: 'Ottogi'
     },
     nav_grit: {
-        ko: '그릿봇', en: 'GritBot', zh: '毅力机器人', ja: 'グリットボット',
-        es: 'GritBot', el: 'GritBot', de: 'GritBot', fr: 'GritBot', ru: 'GritBot'
+        ko: '그릿', en: 'Grit', zh: '毅力', ja: 'グリット',
+        es: 'Grit', el: 'Grit', de: 'Grit', fr: 'Grit', ru: 'Grit'
     },
     nav_wallet: {
-        ko: '지갑스캔봇', en: 'WalletScan', zh: '钱包扫描', ja: 'ウォレットスキャン',
+        ko: '지갑스캔', en: 'WalletScan', zh: '钱包扫描', ja: 'ウォレットスキャン',
         es: 'WalletScan', el: 'WalletScan', de: 'WalletScan', fr: 'WalletScan', ru: 'WalletScan'
     },
     nav_lineage: {
-        ko: '리니지봇', en: 'LineageBot', zh: '天堂机器人', ja: 'リネージュボット',
-        es: 'LineageBot', el: 'LineageBot', de: 'LineageBot', fr: 'LineageBot', ru: 'LineageBot'
+        ko: 'MMORPG', en: 'MMORPG', zh: 'MMORPG', ja: 'MMORPG',
+        es: 'MMORPG', el: 'MMORPG', de: 'MMORPG', fr: 'MMORPG', ru: 'MMORPG'
     },
     nav_jarvis: {
         ko: '자비스', en: 'Jarvis', zh: '贾维斯', ja: 'ジャービス',
@@ -102,8 +102,8 @@ const T = {
         ru: '6 ИИ-услуг от AgentStar'
     },
     svc_ottogi_desc: {
-        ko: '오뚜기토큰 관련 실시간 정보 제공 및 토큰 생태계 분석',
-        en: 'Real-time information and token ecosystem analysis for Ottogi Token',
+        ko: '블록체인 트라이업 프로젝트 — 토큰 생태계 분석 및 실시간 정보 제공',
+        en: 'Blockchain Try-Up Project — Token ecosystem analysis and real-time information',
         zh: '不倒翁代币实时信息提供及代币生态系统分析',
         ja: 'オットギトークン関連リアルタイム情報提供およびトークンエコシステム分析',
         es: 'Información en tiempo real y análisis del ecosistema del token Ottogi',
@@ -113,8 +113,8 @@ const T = {
         ru: 'Информация в реальном времени и анализ экосистемы токена Ottogi'
     },
     svc_grit_desc: {
-        ko: '그릿 프로젝트 기반 AI 자동화 및 성장 전략 솔루션',
-        en: 'AI automation and growth strategy solutions based on the Grit project',
+        ko: '블록체인 복권 프로젝트 — AI 기반 투명한 복권 시스템',
+        en: 'Blockchain Lottery Project — AI-powered transparent lottery system',
         zh: '基于毅力项目的AI自动化和增长策略解决方案',
         ja: 'グリットプロジェクト基盤のAI自動化および成長戦略ソリューション',
         es: 'Soluciones de automatización de IA y estrategia de crecimiento basadas en el proyecto Grit',
@@ -124,8 +124,8 @@ const T = {
         ru: 'Решения по автоматизации ИИ и стратегии роста на основе проекта Grit'
     },
     svc_wallet_desc: {
-        ko: '잊어버린 암호화폐 복구 · 프라이빗키 · 니모닉 분석 서비스',
-        en: 'Lost crypto recovery · Private key · Mnemonic analysis service',
+        ko: '잊어버린 암호화폐 복구 · 프라이빗키 · 니모닉 분석',
+        en: 'Lost crypto recovery · Private key · Mnemonic analysis',
         zh: '遗失加密货币恢复 · 私钥 · 助记词分析服务',
         ja: '忘れた暗号通貨の復旧 · プライベートキー · ニーモニック分析サービス',
         es: 'Recuperación de criptomonedas perdidas · Clave privada · Análisis mnemónico',
@@ -135,8 +135,8 @@ const T = {
         ru: 'Восстановление потерянных криптовалют · Приватный ключ · Анализ мнемоники'
     },
     svc_lineage_desc: {
-        ko: '프리서버 구축 · 접속기 제작 · SNS 자동화 · 코드 수정',
-        en: 'Private server setup · Launcher creation · SNS automation · Code modification',
+        ko: 'MMORPG 프로젝트 — 서버 구축 · 접속기 제작 · 자동화 솔루션',
+        en: 'MMORPG Project — Server setup · Launcher creation · Automation solutions',
         zh: '私服搭建 · 登录器制作 · SNS自动化 · 代码修改',
         ja: 'プライベートサーバー構築 · ランチャー制作 · SNS自動化 · コード修正',
         es: 'Configuración de servidor privado · Creación de launcher · Automatización SNS · Modificación de código',
@@ -450,8 +450,8 @@ const T = {
 
     // ===== Sub-page common =====
     page_ottogi_title: {
-        ko: '오뚜기봇', en: 'OttogiBot', zh: '不倒翁机器人', ja: 'オットギボット',
-        es: 'OttogiBot', el: 'OttogiBot', de: 'OttogiBot', fr: 'OttogiBot', ru: 'OttogiBot'
+        ko: '오뚜기', en: 'Ottogi', zh: '不倒翁', ja: 'オットギ',
+        es: 'Ottogi', el: 'Ottogi', de: 'Ottogi', fr: 'Ottogi', ru: 'Ottogi'
     },
     page_ottogi_subtitle: {
         ko: '오뚜기토큰 생태계의 모든 정보를 실시간으로 제공하는 AI 봇',
@@ -465,8 +465,8 @@ const T = {
         ru: 'ИИ-бот, предоставляющий информацию в реальном времени об экосистеме Ottogi Token'
     },
     page_grit_title: {
-        ko: '그릿봇', en: 'GritBot', zh: '毅力机器人', ja: 'グリットボット',
-        es: 'GritBot', el: 'GritBot', de: 'GritBot', fr: 'GritBot', ru: 'GritBot'
+        ko: '그릿', en: 'Grit', zh: '毅力', ja: 'グリット',
+        es: 'Grit', el: 'Grit', de: 'Grit', fr: 'Grit', ru: 'Grit'
     },
     page_grit_subtitle: {
         ko: '끈기와 열정의 AI — 그릿 프로젝트 기반 자동화 솔루션',
@@ -480,8 +480,8 @@ const T = {
         ru: 'ИИ упорства и страсти — Решения автоматизации на основе проекта Grit'
     },
     page_wallet_title: {
-        ko: '지갑스캔봇', en: 'WalletScan Bot', zh: '钱包扫描机器人', ja: 'ウォレットスキャンボット',
-        es: 'WalletScan Bot', el: 'WalletScan Bot', de: 'WalletScan Bot', fr: 'WalletScan Bot', ru: 'WalletScan Бот'
+        ko: '지갑스캔', en: 'WalletScan', zh: '钱包扫描', ja: 'ウォレットスキャン',
+        es: 'WalletScan', el: 'WalletScan', de: 'WalletScan', fr: 'WalletScan', ru: 'WalletScan Бот'
     },
     page_wallet_subtitle: {
         ko: '잊어버린 암호화폐를 AI가 찾아드립니다',
@@ -495,8 +495,8 @@ const T = {
         ru: 'ИИ восстановит ваши потерянные криптовалюты'
     },
     page_lineage_title: {
-        ko: '리니지봇', en: 'LineageBot', zh: '天堂机器人', ja: 'リネージュボット',
-        es: 'LineageBot', el: 'LineageBot', de: 'LineageBot', fr: 'LineageBot', ru: 'LineageBot'
+        ko: 'MMORPG', en: 'MMORPG', zh: 'MMORPG', ja: 'MMORPG',
+        es: 'MMORPG', el: 'MMORPG', de: 'MMORPG', fr: 'MMORPG', ru: 'MMORPG'
     },
     page_lineage_subtitle: {
         ko: '프리서버 구축부터 자동화까지, 게임 서버의 모든 것',
