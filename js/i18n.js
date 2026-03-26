@@ -26,8 +26,8 @@ const T = {
         es: 'Grit', el: 'Grit', de: 'Grit', fr: 'Grit', ru: 'Grit'
     },
     nav_wallet: {
-        ko: '지갑스캔', en: 'WalletScan', zh: '钱包扫描', ja: 'ウォレットスキャン',
-        es: 'WalletScan', el: 'WalletScan', de: 'WalletScan', fr: 'WalletScan', ru: 'WalletScan'
+        ko: '크립토월렛 복구서비스', en: 'CryptoWallet Recovery', zh: '加密钱包恢复服务', ja: 'クリプトウォレット復旧サービス',
+        es: 'CryptoWallet Recovery', el: 'CryptoWallet Recovery', de: 'CryptoWallet Recovery', fr: 'CryptoWallet Recovery', ru: 'CryptoWallet Recovery'
     },
     nav_lineage: {
         ko: 'MMORPG', en: 'MMORPG', zh: 'MMORPG', ja: 'MMORPG',
@@ -480,8 +480,8 @@ const T = {
         ru: 'ИИ упорства и страсти — Решения автоматизации на основе проекта Grit'
     },
     page_wallet_title: {
-        ko: '지갑스캔', en: 'WalletScan', zh: '钱包扫描', ja: 'ウォレットスキャン',
-        es: 'WalletScan', el: 'WalletScan', de: 'WalletScan', fr: 'WalletScan', ru: 'WalletScan Бот'
+        ko: '크립토월렛 복구서비스', en: 'CryptoWallet Recovery', zh: '加密钱包恢复服务', ja: 'クリプトウォレット復旧サービス',
+        es: 'CryptoWallet Recovery', el: 'CryptoWallet Recovery', de: 'CryptoWallet Recovery', fr: 'CryptoWallet Recovery', ru: 'CryptoWallet Recovery Бот'
     },
     page_wallet_subtitle: {
         ko: '잊어버린 암호화폐를 AI가 찾아드립니다',
