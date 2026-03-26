@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 후원 - AgentStar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><span class="logo-icon">⭐</span> AgentStar</a>
+            <button class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" data-i18n="nav_home">홈</a></li>
+                <li><a href="ottogi.html" data-i18n="nav_ottogi">오뚜기봇</a></li>
+                <li><a href="grit.html" data-i18n="nav_grit">그릿봇</a></li>
+                <li><a href="wallet-scan.html" data-i18n="nav_wallet">지갑스캔봇</a></li>
+                <li><a href="lineage.html" data-i18n="nav_lineage">리니지봇</a></li>
+                <li><a href="jarvis.html" data-i18n="nav_jarvis">자비스</a></li>
+                <li><a href="retro-game.html" data-i18n="nav_retro">레트로 게임</a></li>
+                <li><a href="donate.html" class="active" data-i18n="nav_donate">AI 후원</a></li>
+                <li><a href="support.html" data-i18n="nav_support">고객센터</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>❤️ <span class="highlight" data-i18n="donate_title">AI 후원</span></h1>
+            <p data-i18n="donate_subtitle">당신의 후원이 AI의 성장과 진화를 이끕니다</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="donate-cards">
+                <div class="donate-card">
+                    <div class="wallet-icon">₿</div>
+                    <h3>Bitcoin (BTC)</h3>
+                    <div class="wallet-address" onclick="copyAddress('bc1qw0rzfwsyyr2pqnx5ureg9558mrcvqhmqvu0xue')">
+                        bc1qw0rzfwsyyr2pqnx5ureg9558mrcvqhmqvu0xue
+                    </div>
+                    <button class="copy-btn" onclick="copyAddress('bc1qw0rzfwsyyr2pqnx5ureg9558mrcvqhmqvu0xue')" data-i18n="donate_copy">📋 주소 복사</button>
+                </div>
+                <div class="donate-card">
+                    <div class="wallet-icon">💵</div>
+                    <h3>USDT (ERC-20)</h3>
+                    <div class="wallet-address" onclick="copyAddress('0x84cf4d165F3025319290934e24422C79Cce06242')">
+                        0x84cf4d165F3025319290934e24422C79Cce06242
+                    </div>
+                    <button class="copy-btn" onclick="copyAddress('0x84cf4d165F3025319290934e24422C79Cce06242')" data-i18n="donate_copy">📋 주소 복사</button>
+                </div>
+                <div class="donate-card">
+                    <div class="wallet-icon">💎</div>
+                    <h3>USDT (TRC-20 / TRON)</h3>
+                    <div class="wallet-address" onclick="copyAddress('TUdKLDw66iHqnTWrjvXEezjnp2E5SXNtEp')">
+                        TUdKLDw66iHqnTWrjvXEezjnp2E5SXNtEp
+                    </div>
+                    <button class="copy-btn" onclick="copyAddress('TUdKLDw66iHqnTWrjvXEezjnp2E5SXNtEp')" data-i18n="donate_copy">📋 주소 복사</button>
+                </div>
+            </div>
+
+            <div class="donate-reward">
+                <h2 data-i18n="donate_reward_title">🎁 후원 보상 프로그램</h2>
+                <p data-i18n="donate_reward_desc">후원해주시면 AI가 소정의 선물과 포인트를 적립해드립니다. 일정 포인트가 쌓이면, <strong style="color: #6C5CE7;">당신만을 위한, 당신 전용의 AI가 생성되어 여러분을 찾아갑니다.</strong></p>
+                <div class="reward-steps">
+                    <div class="reward-step">
+                        <div class="step-num">1</div>
+                        <h4 data-i18n="step1_title">후원하기</h4>
+                        <p data-i18n="step1_desc">위 지갑 주소로<br>원하는 금액 전송</p>
+                    </div>
+                    <div class="reward-step">
+                        <div class="step-num">2</div>
+                        <h4 data-i18n="step2_title">인증하기</h4>
+                        <p data-i18n="step2_desc">트랜잭션 스크린샷과<br>TX ID를 고객센터로 전송</p>
+                    </div>
+                    <div class="reward-step">
+                        <div class="step-num">3</div>
+                        <h4 data-i18n="step3_title">포인트 적립</h4>
+                        <p data-i18n="step3_desc">AI가 확인 후<br>포인트 + 선물 지급</p>
+                    </div>
+                    <div class="reward-step">
+                        <div class="step-num">4</div>
+                        <h4 data-i18n="step4_title">전용 AI 생성</h4>
+                        <p data-i18n="step4_desc">일정 포인트 달성 시<br>나만의 AI가 생성!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2 data-i18n="donate_cta_title">AI의 미래에 함께해주세요</h2>
+            <p data-i18n="donate_cta_desc">작은 후원이 큰 변화를 만듭니다</p>
+            <a href="support.html" class="btn btn-primary btn-large" data-i18n="nav_support">고객센터 문의 📩</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 AgentStar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/i18n.js"></script>
+</body>
+</html>
