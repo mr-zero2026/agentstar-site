@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgentStar - AI Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><span class="logo-icon">⭐</span> AgentStar</a>
+            <button class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active" data-i18n="nav_home">홈</a></li>
+                <li><a href="ottogi.html" data-i18n="nav_ottogi">오뚜기봇</a></li>
+                <li><a href="grit.html" data-i18n="nav_grit">그릿봇</a></li>
+                <li><a href="wallet-scan.html" data-i18n="nav_wallet">지갑스캔봇</a></li>
+                <li><a href="lineage.html" data-i18n="nav_lineage">리니지봇</a></li>
+                <li><a href="jarvis.html" data-i18n="nav_jarvis">자비스</a></li>
+                <li><a href="retro-game.html" data-i18n="nav_retro">레트로 게임</a></li>
+                <li><a href="donate.html" data-i18n="nav_donate">AI 후원</a></li>
+                <li><a href="support.html" data-i18n="nav_support">고객센터</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="highlight" data-i18n="hero_title_1">AI</span><span data-i18n="hero_title_2">가 만드는</span><br>
+                <span data-i18n="hero_title_3">새로운 </span><span class="highlight" data-i18n="hero_title_4">가능성</span>
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">최첨단 AI 기술로 다양한 분야의 솔루션을 제공합니다</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary" data-i18n="hero_btn_services">서비스 둘러보기</a>
+                <a href="donate.html" class="btn btn-outline" data-i18n="hero_btn_donate">AI 후원하기</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our <span class="highlight">Services</span></h2>
+            <p class="section-desc" data-i18n="services_desc">AgentStar가 제공하는 5가지 AI 서비스</p>
+            <div class="service-grid">
+                <a href="ottogi.html" class="service-card">
+                    <div class="service-icon">🍜</div>
+                    <h3 data-i18n="nav_ottogi">오뚜기봇</h3>
+                    <p data-i18n="svc_ottogi_desc">오뚜기토큰 관련 실시간 정보 제공 및 토큰 생태계 분석</p>
+                    <span class="service-link" data-i18n="view_more">자세히 보기 <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="grit.html" class="service-card">
+                    <div class="service-icon">💪</div>
+                    <h3 data-i18n="nav_grit">그릿봇</h3>
+                    <p data-i18n="svc_grit_desc">그릿 프로젝트 기반 AI 자동화 및 성장 전략 솔루션</p>
+                    <span class="service-link" data-i18n="view_more">자세히 보기 <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="wallet-scan.html" class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3 data-i18n="nav_wallet">지갑스캔봇</h3>
+                    <p data-i18n="svc_wallet_desc">잊어버린 암호화폐 복구 · 프라이빗키 · 니모닉 분석 서비스</p>
+                    <span class="service-link" data-i18n="view_more">자세히 보기 <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="lineage.html" class="service-card">
+                    <div class="service-icon">🎮</div>
+                    <h3 data-i18n="nav_lineage">리니지봇</h3>
+                    <p data-i18n="svc_lineage_desc">프리서버 구축 · 접속기 제작 · SNS 자동화 · 코드 수정</p>
+                    <span class="service-link" data-i18n="view_more">자세히 보기 <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="jarvis.html" class="service-card">
+                    <div class="service-icon">⚽</div>
+                    <h3 data-i18n="nav_jarvis">자비스</h3>
+                    <p data-i18n="svc_jarvis_desc">스포츠 경기 AI 분석 · 데이터 기반 예측 · 맞춤 픽 제공</p>
+                    <span class="service-link" data-i18n="view_more">자세히 보기 <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="retro-game.html" class="service-card">
+                    <div class="service-icon">🕹️</div>
+                    <h3 data-i18n="nav_retro">레트로 게임</h3>
+                    <p data-i18n="svc_retro_desc">추억의 게임을 모바일 · PC · 온라인으로 변환</p>
+                    <span class="service-link" data-i18n="view_more">자세히 보기 <i class="fas fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="6">0</div>
+                    <div class="stat-label" data-i18n="stat_services">AI 서비스</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label" data-i18n="stat_hours">시간 운영</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="99">0</div>
+                    <div class="stat-label" data-i18n="stat_accuracy">% 정확도</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="1000">0</div>
+                    <div class="stat-label" data-i18n="stat_analyses">+ 분석 완료</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2 data-i18n="cta_title">지금 바로 AI의 힘을 경험하세요</h2>
+            <p data-i18n="cta_desc">후원을 통해 더 나은 AI 서비스를 만들어갑니다</p>
+            <a href="donate.html" class="btn btn-primary btn-large" data-i18n="hero_btn_donate">AI 후원하기 ❤️</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>⭐ AgentStar</h4>
+                    <p data-i18n="footer_desc">AI 기술로 새로운 가능성을 만듭니다</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_services">서비스</h4>
+                    <ul>
+                        <li><a href="ottogi.html" data-i18n="nav_ottogi">오뚜기봇</a></li>
+                        <li><a href="grit.html" data-i18n="nav_grit">그릿봇</a></li>
+                        <li><a href="wallet-scan.html" data-i18n="nav_wallet">지갑스캔봇</a></li>
+                        <li><a href="lineage.html" data-i18n="nav_lineage">리니지봇</a></li>
+                        <li><a href="jarvis.html" data-i18n="nav_jarvis">자비스</a></li>
+                        <li><a href="retro-game.html" data-i18n="nav_retro">레트로 게임</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_community">커뮤니티</h4>
+                    <ul>
+                        <li><a href="https://discord.gg/kGMnSgQCF" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
+                        <li><a href="https://t.me/" target="_blank"><i class="fab fa-telegram"></i> Telegram</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_support_title">지원</h4>
+                    <ul>
+                        <li><a href="retro-game.html" data-i18n="nav_retro">레트로 게임</a></li>
+                <li><a href="donate.html" data-i18n="nav_donate">AI 후원</a></li>
+                        <li><a href="support.html" data-i18n="nav_support">고객센터</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AgentStar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/i18n.js"></script>
+</body>
+</html>
