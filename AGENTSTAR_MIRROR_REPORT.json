@@ -1,0 +1,277 @@
+[
+  {
+    "page": "donate.html",
+    "size": 6171,
+    "internal_links": [
+      "css/style.css",
+      "donate.html",
+      "grit.html",
+      "index.html",
+      "jarvis.html",
+      "lineage.html",
+      "ottogi.html",
+      "retro-game.html",
+      "support.html",
+      "wallet-scan.html"
+    ],
+    "external_links": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+      "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    ],
+    "scripts_or_assets": [
+      "js/i18n.js",
+      "js/main.js"
+    ]
+  },
+  {
+    "page": "grit-whitepaper.html",
+    "size": 5699,
+    "internal_links": [
+      "css/style.css",
+      "donate.html",
+      "grit.html",
+      "index.html",
+      "jarvis.html",
+      "lineage.html",
+      "ottogi.html",
+      "retro-game.html",
+      "support.html",
+      "wallet-scan.html"
+    ],
+    "external_links": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+      "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap",
+      "https://github.com/mr-zero2026/project-grit"
+    ],
+    "scripts_or_assets": [
+      "js/i18n.js",
+      "js/main.js"
+    ]
+  },
+  {
+    "page": "grit.html",
+    "size": 4532,
+    "internal_links": [
+      "css/style.css",
+      "donate.html",
+      "grit-whitepaper.html",
+      "grit.html",
+      "index.html",
+      "jarvis.html",
+      "lineage.html",
+      "ottogi.html",
+      "retro-game.html",
+      "support.html",
+      "wallet-scan.html"
+    ],
+    "external_links": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+      "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    ],
+    "scripts_or_assets": [
+      "js/i18n.js",
+      "js/main.js"
+    ]
+  },
+  {
+    "page": "index.html",
+    "size": 9486,
+    "internal_links": [
+      "css/style.css",
+      "donate.html",
+      "grit.html",
+      "index.html",
+      "jarvis.html",
+      "lineage.html",
+      "ottogi.html",
+      "retro-game.html",
+      "support.html",
+      "wallet-scan.html"
+    ],
+    "external_links": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+      "https://discord.gg/kGMnSgQCF",
+      "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap",
+      "https://t.me/"
+    ],
+    "scripts_or_assets": [
+      "js/i18n.js",
+      "js/main.js"
+    ]
+  },
+  {
+    "page": "jarvis.html",
+    "size": 5317,
+    "internal_links": [
+      "css/style.css",
+      "donate.html",
+      "grit.html",
+      "index.html",
+      "jarvis.html",
+      "lineage.html",
+      "ottogi.html",
+      "retro-game.html",
+      "support.html",
+      "wallet-scan.html"
+    ],
+    "external_links": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+      "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    ],
+    "scripts_or_assets": [
+      "js/i18n.js",
+      "js/main.js"
+    ]
+  },
+  {
+    "page": "lineage.html",
+    "size": 5274,
+    "internal_links": [
+      "css/style.css",
+      "donate.html",
+      "grit.html",
+      "index.html",
+      "jarvis.html",
+      "lineage.html",
+      "ottogi.html",
+      "retro-game.html",
+      "support.html",
+      "wallet-scan.html"
+    ],
+    "external_links": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+      "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    ],
+    "scripts_or_assets": [
+      "js/i18n.js",
+      "js/main.js"
+    ]
+  },
+  {
+    "page": "ott-whitepaper.html",
+    "size": 5539,
+    "internal_links": [
+      "css/style.css",
+      "donate.html",
+      "grit.html",
+      "index.html",
+      "jarvis.html",
+      "lineage.html",
+      "ottogi.html",
+      "retro-game.html",
+      "support.html",
+      "wallet-scan.html"
+    ],
+    "external_links": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+      "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap",
+      "https://ottcoin.life",
+      "https://t.me/OTTCOINLIFE",
+      "https://x.com/dr_zero2026"
+    ],
+    "scripts_or_assets": [
+      "js/i18n.js",
+      "js/main.js"
+    ]
+  },
+  {
+    "page": "ottogi.html",
+    "size": 4600,
+    "internal_links": [
+      "css/style.css",
+      "donate.html",
+      "grit.html",
+      "index.html",
+      "jarvis.html",
+      "lineage.html",
+      "ott-whitepaper.html",
+      "ottogi.html",
+      "retro-game.html",
+      "support.html",
+      "wallet-scan.html"
+    ],
+    "external_links": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+      "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    ],
+    "scripts_or_assets": [
+      "js/i18n.js",
+      "js/main.js"
+    ]
+  },
+  {
+    "page": "retro-game.html",
+    "size": 11184,
+    "internal_links": [
+      "css/style.css",
+      "donate.html",
+      "grit.html",
+      "index.html",
+      "jarvis.html",
+      "lineage.html",
+      "ottogi.html",
+      "retro-game.html",
+      "support.html",
+      "wallet-scan.html"
+    ],
+    "external_links": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+      "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    ],
+    "scripts_or_assets": [
+      "js/i18n.js",
+      "js/main.js"
+    ]
+  },
+  {
+    "page": "support.html",
+    "size": 4137,
+    "internal_links": [
+      "css/style.css",
+      "donate.html",
+      "grit.html",
+      "index.html",
+      "jarvis.html",
+      "lineage.html",
+      "ottogi.html",
+      "retro-game.html",
+      "support.html",
+      "wallet-scan.html"
+    ],
+    "external_links": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+      "https://discord.gg/cSyjeERq",
+      "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap",
+      "https://open.kakao.com/o/sBzrW6ni",
+      "https://t.me/Leeonlin"
+    ],
+    "scripts_or_assets": [
+      "js/i18n.js",
+      "js/main.js"
+    ]
+  },
+  {
+    "page": "wallet-scan.html",
+    "size": 5428,
+    "internal_links": [
+      "css/style.css",
+      "donate.html",
+      "grit.html",
+      "index.html",
+      "jarvis.html",
+      "lineage.html",
+      "ottogi.html",
+      "retro-game.html",
+      "support.html",
+      "wallet-scan.html"
+    ],
+    "external_links": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+      "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    ],
+    "scripts_or_assets": [
+      "js/i18n.js",
+      "js/main.js"
+    ]
+  }
+]

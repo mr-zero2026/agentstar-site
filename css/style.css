@@ -34,6 +34,10 @@ body {
     overflow-x: hidden;
 }
 
+code {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -209,6 +213,29 @@ a {
 /* ===== Services ===== */
 .services {
     padding: 120px 0;
+}
+
+.sub-hero {
+    min-height: 72vh;
+}
+
+.featured-card {
+    border: 1px solid rgba(0, 210, 211, 0.35);
+    box-shadow: 0 0 30px rgba(0, 210, 211, 0.12);
+}
+
+.static-card {
+    cursor: default;
+}
+
+.quick-url-box {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 18px 20px;
+    border-radius: 16px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(108, 92, 231, 0.25);
+    word-break: break-all;
 }
 
 .section-title {
