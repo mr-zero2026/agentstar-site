@@ -18,12 +18,12 @@ const T = {
         es: 'Inicio', el: 'Αρχική', de: 'Start', fr: 'Accueil', ru: 'Главная'
     },
     nav_ottogi: {
-        ko: '오뚜기', en: 'Ottogi', zh: '不倒翁', ja: 'オットギ',
-        es: 'Ottogi', el: 'Ottogi', de: 'Ottogi', fr: 'Ottogi', ru: 'Ottogi'
+        ko: 'blockchain(ott)', en: 'blockchain(ott)', zh: 'blockchain(ott)', ja: 'blockchain(ott)',
+        es: 'blockchain(ott)', el: 'blockchain(ott)', de: 'blockchain(ott)', fr: 'blockchain(ott)', ru: 'blockchain(ott)'
     },
     nav_grit: {
-        ko: '그릿', en: 'Grit', zh: '毅力', ja: 'グリット',
-        es: 'Grit', el: 'Grit', de: 'Grit', fr: 'Grit', ru: 'Grit'
+        ko: 'GRIT', en: 'GRIT', zh: 'GRIT', ja: 'GRIT',
+        es: 'GRIT', el: 'GRIT', de: 'GRIT', fr: 'GRIT', ru: 'GRIT'
     },
     nav_wallet: {
         ko: '크립토월렛 복구서비스', en: 'CryptoWallet Recovery', zh: '加密钱包恢复服务', ja: 'クリプトウォレット復旧サービス',
@@ -102,7 +102,7 @@ const T = {
         ru: '6 ИИ-услуг от AgentStar'
     },
     svc_ottogi_desc: {
-        ko: '블록체인 트라이업 프로젝트 — 토큰 생태계 분석 및 실시간 정보 제공',
+        ko: 'Blockchain OTT project — 토큰 생태계 분석 및 실시간 정보 제공',
         en: 'Blockchain Try-Up Project — Token ecosystem analysis and real-time information',
         zh: '不倒翁代币实时信息提供及代币生态系统分析',
         ja: 'オットギトークン関連リアルタイム情報提供およびトークンエコシステム分析',
@@ -113,7 +113,7 @@ const T = {
         ru: 'Информация в реальном времени и анализ экосистемы токена Ottogi'
     },
     svc_grit_desc: {
-        ko: '블록체인 복권 프로젝트 — AI 기반 투명한 복권 시스템',
+        ko: 'GRIT automation project — AI 기반 투명한 복권 시스템',
         en: 'Blockchain Lottery Project — AI-powered transparent lottery system',
         zh: '基于毅力项目的AI自动化和增长策略解决方案',
         ja: 'グリットプロジェクト基盤のAI自動化および成長戦略ソリューション',
@@ -450,11 +450,11 @@ const T = {
 
     // ===== Sub-page common =====
     page_ottogi_title: {
-        ko: '오뚜기', en: 'Ottogi', zh: '不倒翁', ja: 'オットギ',
-        es: 'Ottogi', el: 'Ottogi', de: 'Ottogi', fr: 'Ottogi', ru: 'Ottogi'
+        ko: 'blockchain(ott)', en: 'blockchain(ott)', zh: 'blockchain(ott)', ja: 'blockchain(ott)',
+        es: 'blockchain(ott)', el: 'blockchain(ott)', de: 'blockchain(ott)', fr: 'blockchain(ott)', ru: 'blockchain(ott)'
     },
     page_ottogi_subtitle: {
-        ko: '오뚜기토큰 생태계의 모든 정보를 실시간으로 제공하는 AI 봇',
+        ko: 'OTT token 생태계의 모든 정보를 실시간으로 제공하는 AI 봇',
         en: 'AI bot providing real-time information for the Ottogi Token ecosystem',
         zh: '实时提供不倒翁代币生态系统所有信息的AI机器人',
         ja: 'オットギトークンエコシステムのすべての情報をリアルタイムで提供するAIボット',
@@ -465,11 +465,11 @@ const T = {
         ru: 'ИИ-бот, предоставляющий информацию в реальном времени об экосистеме Ottogi Token'
     },
     page_grit_title: {
-        ko: '그릿', en: 'Grit', zh: '毅力', ja: 'グリット',
-        es: 'Grit', el: 'Grit', de: 'Grit', fr: 'Grit', ru: 'Grit'
+        ko: 'GRIT', en: 'GRIT', zh: 'GRIT', ja: 'GRIT',
+        es: 'GRIT', el: 'GRIT', de: 'GRIT', fr: 'GRIT', ru: 'GRIT'
     },
     page_grit_subtitle: {
-        ko: '끈기와 열정의 AI — 그릿 프로젝트 기반 자동화 솔루션',
+        ko: '끈기와 열정의 AI — GRIT project 기반 자동화 솔루션',
         en: 'AI of Grit and Passion — Automation solutions based on the Grit project',
         zh: '坚毅与热情的AI — 基于毅力项目的自动化解决方案',
         ja: '根気と情熱のAI — グリットプロジェクト基盤の自動化ソリューション',
