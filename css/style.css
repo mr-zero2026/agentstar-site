@@ -157,14 +157,22 @@ a {
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 8px;
+    gap: 6px;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .nav-links a {
-    padding: 8px 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 36px;
+    padding: 8px 12px;
     border-radius: 25px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
+    line-height: 1.1;
+    white-space: nowrap;
     transition: all 0.3s ease;
     color: var(--text-muted);
 }
@@ -684,6 +692,13 @@ a {
 }
 
 /* ===== Responsive ===== */
+@media (max-width: 1024px) {
+    .nav-links a {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 768px) {
     .nav-toggle {
         display: block;
